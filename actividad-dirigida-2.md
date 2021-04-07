@@ -7,9 +7,13 @@ A partir de una **visualización (en movimiento)**, se pretende explicar a los l
 
 Mediante una imagen de una cámara de infrarrojos, muestra qué ocurre cuando una persona exhala CO2, indicando que el riesgo es muy bajo en exteriores. Si el usuario hace **scroll con el ratón**, le enseña otra situación diferente. Esta vez dentro de un coche, en el que no hay ventilación. Todo ello con **datos, textos y gráficas en movimiento** para complementar la visualización. Por lo tanto, cada vez que el lector vaya hacia abajo, se irá encontrando con diversas situaciones para conocer cuál sería el riesgo de contagio.
 
+![Persona exhala CO2](images/co2.jpg)
+
 En primer lugar, me parece una gran idea incorporar el **concepto de storytelling dentro de una visualización**. El lector puede ir avanzando poco a poco en la pieza, como si fuese una historia. Esto engancha y, además, hace que no se pierda ninguna información.
 
 Por otro lado, herramientas complementarias como **los colores me parecen muy acertados**. Así pues, cuando el riesgo de contagio es muy alto emplea el rojo, cuando hay riesgo medio utiliza el amarillo y cuando es bajo se ha seleccionado el verde. **Colores muy asociados a las ideas de positivo y negativo y que permiten comprender la información de una manera rápida y visual**.
+
+![Persona exhala CO2](images/coche.jpg)
 
 A pesar de ser una visualización muy potente, creo que tiene un **gran fallo: no se puede ver desde el móvil**. Los medios de comunicación tienen que acostumbrarse a diseñar sus contenidos para estos dispositivos, puesto que la mayoría de los usuarios acceden con ellos a las páginas web. Por lo demás, considero que es un trabajo complejo, pero bastante **intuitivo para los usuarios**, que no rompe con la usabilidad de la web.
 
@@ -33,4 +37,4 @@ En cuanto a su **adaptación a otros dispositivos**, el mapa se visualiza correc
 
 Por último, algo que creo que se podría mejorar es que, si el lector hace **click en alguna de las provincias**, esta se selecciona, pero no ocurre nada. Es decir, no aporta información ni ningún dato complementario. Asimismo, deja al resto de provincias en un segundo plano. Creo que esto **genera confusión**, debido que, al quedar marcada, el usuario puede entender que sirve para algo esa función.
 
-![Mapa rebrotes coronavirus](images/provincia-seleccionada.png)
+![Mapa rebrotes coronavirus con la provincia seleccionada](images/mapa.jpg)
