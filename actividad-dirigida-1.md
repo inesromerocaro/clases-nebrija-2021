@@ -1,5 +1,6 @@
-https://as.com/tenis/2021/02/22/reportajes/1613994563_644498.html 
-La primera visualización seleccionada, titulada ‘Las diferencias reales de estilo entre Federer, Nadal y Djokovic, fue publicada el 22 de febrero de 2021 en el Diario AS y está hecha por el infografista Miguel Ángel Fernández.
+# Actividad Dirigida 1
+## [Primera infografía](https://as.com/tenis/2021/02/22/reportajes/1613994563_644498.html)
+La primera visualización seleccionada, titulada *Las diferencias reales de estilo entre Federer, Nadal y Djokovic*, fue publicada el 22 de febrero de 2021 en el Diario AS y está hecha por el infografista Miguel Ángel Fernández.
 
 La pieza se hizo tras el último Open de Australia, puesto que la derrota de Rafa Nadal en cuartos supuso un punto de inflexión en el tenis mundial. El ranking de la ATP está configurado según los títulos ganados, lo que permite comparar a unos jugadores con otros. Pero, ¿quién es el mejor si nos fijamos en las estadísticas?
 
@@ -22,8 +23,8 @@ En cuanto al gráfico sobre la eficacia del servicio, está divido en parcela. A
 En definitiva, he seleccionado esta visualización porque demuestra que se puede hacer para todo tipo de temas, como es el deporte, y que, para determinadas informaciones, es la mejor forma para contarla.
 
 
-https://inconsolata.com/image/190291985632 
-La siguiente visualización está realizada por Isabel González para la revista ‘Papel’ del diario El Mundo. 
+## [Segunda infografía](https://inconsolata.com/image/190291985632)
+La siguiente visualización está realizada por Isabel González para la *revista Papel del diario El Mundo. 
 
 A través de la infografía, se realiza un recorrido por los nueve grandes éxitos de Rosalía, analizando si cuántos de los siete rasgos esenciales de la cantando se encuentran reflejados en sus canciones. 
 
@@ -41,7 +42,7 @@ Para terminar la infografía, se ha hecho un baremo para calcular cuál es la ca
 
 En definitiva, esta infografía me parece un buen ejemplo de visualización porque en un simple vistazo se puede obtener mucha información de los grandes éxitos de la cantante catalana. Para ello, ha jugado mucho con los colores y otros recursos visuales como iconos.
 
-https://www.newtral.es/mapa-coronavirus-madrid-incidencia-500/20201014/ 
+## [Tercera infografía](https://www.newtral.es/mapa-coronavirus-madrid-incidencia-500/20201014/)
 La siguiente visualización seleccionada pertenece a Newtral y fue publicada el 14 de octubre de 2020. La pieza trata sobre la incidencia del coronavirus en la Comunidad de Madrid. Para representar esta información, han escogido un mapa de la región, que, desde mi punto de vista, es la mejor opción.
 
 Las localidades están diferenciadas entre sí por colores, puesto que han seleccionado una gama de colores que van desde los más fríos, hasta los más cálidos. Así pues, cuanto más cálido, mayor es la incidencia del coronavirus por cada 100.000 habitantes en los últimos 14 días. Un recurso correcto para entender la información de un simple vistazo.
