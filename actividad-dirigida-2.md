@@ -24,7 +24,7 @@ En primer lugar, me parece **adecuado utilizar estos gráficos** para mostrar, d
 No obstante, si nos fijamos en la **leyenda**, se divide en: ningún caso, de 1 a 100, de 100 a 1.000 y más de 1.000. Creo que se podría haber añadido algún valor más, puesto que, por ejemplo, de 100 a 1.000 hay una gran diferencia.
 
 Además, si el lector pasa el **cursor por encima**, le aparece **información añadida**, como el nombre de la provincia y el dato concreto de casos que hay.
-![Mapa rebrotes coronavirus](clases-nebrija-2021/docs/images/pic04.jpg)
+![Mapa rebrotes coronavirus](docs/images/pic04.jpg)
 
 Cabe añadir que el **mapa está hecho con Mapbox**, una herramienta de desarrollo específica para conseguir gráficos de este tipo. Considero que no es un mal recurso. Sin embargo, teniendo en cuenta que la pieza es de El Mundo, una de las principales cabeceras de nuestro país, quizá deberían optar por **desarrollar ellos mismos estos gráficos, sin depender de terceros**.
 
