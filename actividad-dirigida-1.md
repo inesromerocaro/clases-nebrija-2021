@@ -38,7 +38,7 @@ Para ello, ha hecho como una especie de línea temporal de sus grandes éxitos. 
 
 Cada una de las siluetas está divida en siete espacios, que representan los rasgos clave de la identidad de la artista. Según se vean reflejados en la canción, **el color adquirirá una mayor intensidad**. Me parece una idea muy acertada porque, por ejemplo, si nos fijamos en la canción *Con altura*, podemos ver que los rasgos urbana, femenina, jefa y fiestera son de color morado más oscuros que otros como catalana o amante. Lo mismo se ha hecho para cada uno de los temas musicales.
 
-![Visualización Rosalía](/docs/images/pic02.jpg)
+![Visualización Rosalía](/docs/images/rosalia.jpg)
 
 Dentro de cada rasgo da una explicación de por qué esto es así. También me parece una buena idea porque quizá alguien pueda pensar que esa canción no representa el rasgo de femenina. Sin embargo, al tener esa breve justificación, el lector puede entenderlo mejor.
 
