@@ -28,10 +28,7 @@ Una vez tenemos los datos que queremos, procederemos a hacer la visualización m
 
 Por último, una vez está el gráfico elaborado, hay que **llevarlo a nuestro html**. Para que respete todas las propiedades, como por ejemplo pasar el cursor por encima y que salgan los porcentajes, es necesario **embeber el iframe**. Este sería el resultado final.
 
-<iframe>
-  title="Dosis entregadas de cada vacuna" aria-label="chart" id="datawrapper-chart-zhVuS" src="https://datawrapper.dwcdn.net/zhVuS/1/" scrolling="no" frameborder="0" style="border: none;" width="620" height="437">
-
-</iframe>
+<iframe title="Dosis entregadas de cada vacuna" aria-label="chart" id="datawrapper-chart-zhVuS" src="https://datawrapper.dwcdn.net/zhVuS/1/" scrolling="no" frameborder="0" style="border: none;" width="620" height="437"></iframe>
 
 
 
