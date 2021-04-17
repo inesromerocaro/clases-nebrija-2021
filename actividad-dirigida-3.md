@@ -28,8 +28,7 @@ Una vez tenemos los datos que queremos, procederemos a hacer la visualización m
 
 Por último, una vez está el gráfico elaborado, hay que **llevarlo a nuestro html**. Para que respete todas las propiedades, como por ejemplo pasar el cursor por encima y que salgan los porcentajes, es necesario **embeber el iframe**. Este sería el resultado final. 
 
-<iframe width="620" height="437" src="https://datawrapper.dwcdn.net/zhVuS/1/">
-                                      </iframe>
+<iframe width="620" height="437" src="https://datawrapper.dwcdn.net/zhVuS/1/"></iframe>
 
 
 
