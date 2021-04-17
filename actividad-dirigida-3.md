@@ -26,10 +26,10 @@ Para nuestro gráfico, tan solo nos interesan las cuatro primeras columnas y las
 
 Una vez tenemos los datos que queremos, procederemos a hacer la visualización mediante *Datawrapper*. En este caso, he escogido una **gráfica de barras agrupadas**. De esta forma, se podrá comparar las dosis recibidas de las vacunas en cada comunidad. En cuanto a los colores, se ha seleccionado una **gama azules**, aunque se diferencian unos de otro claramente.
 
-Por último, una vez está el gráfico elaborado, hay que **llevarlo a nuestro html**. Para que respete todas las propiedades, como por ejemplo pasar el cursor por encima y que salgan los porcentajes, es necesario **embeber el iframe**. Este sería el resultado final.
-
-<iframe title="Dosis entregadas de cada vacuna" aria-label="chart" id="datawrapper-chart-zhVuS" src="https://datawrapper.dwcdn.net/zhVuS/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="437"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+Por último, una vez está el gráfico elaborado, hay que **llevarlo a nuestro html**. Para que respete todas las propiedades, como por ejemplo pasar el cursor por encima y que salgan los porcentajes, es necesario **embeber el iframe**. Este sería el resultado final. <iframe title="Dosis entregadas de cada vacuna" aria-label="chart" id="datawrapper-chart-zhVuS" src="https://datawrapper.dwcdn.net/zhVuS/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="437"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
 </script>
+
+
 
 
 
