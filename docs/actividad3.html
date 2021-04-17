@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Actividad Dirigida 3</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<a href=https://inesromerocaro.github.io/clases-nebrija-2021/><span class="image avatar48"><img src="images/fotografia.jpg" alt=""/></span>
+							<h1 id="title">Inés Romero</h1>
+							<p>Periodista</p></a>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Actividades Dirigidas</span></a></li>
+								<li><a href="#about" id="about-link"><span class="icon solid fa-user">Sobre mí</span></a></li>
+								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contacto</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+								<h2 class="alt"><strong>Periodismo de Datos II</strong></h2>
+								<p>Máster en Periodismo Digital y de Datos</p>
+							</header>
+
+							<footer>
+								<a href="#portfolio" class="button scrolly">Actividades Dirigidas</a>
+							</footer>
+
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Actividad Dirigida 3</h2>
+							</header>
+<h2 id="datos-y-visualizaciones">Datos y visualizaciones</h2>
+<p>En primer lugar, utilizamos el <strong>comando ls</strong>, que nos sirve para listar el contenido del directorio. Es decir, nos aparecerá en la consola el directorio de usuario. En este caso, el csv con los datos sobre la vacunación en España están en ‘Descargas’, y recibe el nombre de <strong>‘vacunas.csv’</strong>. Tenemos que llegar hasta allí.</p>
+<p><img src="images/cap1.jpg" alt="Cabecera visulalización" /> <img src="images/cap2.jpg" alt="Cabecera visulalización" /> <img src="images/cap3.jpg" alt="Cabecera visulalización" /></p>
+<p>Una vez hemos llegado hasta aquí, haremos una <strong>exploración del archivo</strong>. Para ello será imprescindible el <strong>comando wc</strong>. Con él podremos saber <strong>cuántas líneas, palabas y caracteres tiene el documento</strong>. También nos dará la información sobre cuántos bytes pesa. Asimismo, otros <strong>comandos como file</strong> nos dirán qué tipo de archivo es; <strong>du</strong>, para saber cuánto pesa de forma legible; <strong>head</strong>, para ver la cabecera o las diez primeras filas.</p>
+<p>Una vez aplicados estos comandos veremos que el archivo tiene 23 líneas, 2023 caracteres, 65 palabras y pesa 2032 bytes.</p>
+<figure>
+<img src="images/cap4.jpg" alt="Cabecera visulalización" /><figcaption aria-hidden="true">Cabecera visulalización</figcaption>
+</figure>
+<p>Otra información de interés es saber si la cabecera o las primeras líneas del archivo coinciden. Si ponemos <strong>head -1</strong> nos aparece: Dosis entregadas Pfizer, Dosis entregadas Moderna, etc. Por lo tanto, esta primera línea corresponde a la cabecera del csv. Si ponemos <strong>head-10</strong>, nos aparecerán las primeras 10 líneas. También vemos que coinciden. Además, <strong>cada valor está separado mediante el punto y coma (;)</strong>. Cabe añadir que en nuestro archivo, sí se ven los caracteres que contienen tildes.</p>
+<figure>
+<img src="images/cap5.jpg" alt="Cabecera visulalización" /><figcaption aria-hidden="true">Cabecera visulalización</figcaption>
+</figure>
+<p>Una vez hemos explorado nuestro archivo y conocemos cuáles son sus principales características, tenemos que “modificarlo” para arreglarlo y que nos sea más fácil trabajar con él para hacer la visualización. Para nuestro gráfico, tan solo nos interesan las cuatro primeras columnas y las filas 2, 10 y 15, puesto que simplemente se quiere hacer una comparativa entre los diversos tipos de vacunas en Andalucía, Cataluña y Madrid. Para ello, empleamos el <strong>comando cut</strong>.</p>
+<figure>
+<img src="images/cap6.jpg" alt="Cabecera visulalización" /><figcaption aria-hidden="true">Cabecera visulalización</figcaption>
+</figure>
+<p>Una vez tenemos los datos que queremos, procederemos a hacer la visualización mediante <em>Datawrapper</em>. En este caso, he escogido una <strong>gráfica de barras agrupadas</strong>. De esta forma, se podrá comparar las dosis recibidas de las vacunas en cada comunidad. En cuanto a los colores, se ha seleccionado una <strong>gama azules</strong>, aunque se diferencian unos de otro claramente.</p>
+<p>Por último, una vez está el gráfico elaborado, hay que <strong>llevarlo a nuestro html</strong>. Para que respete todas las propiedades, como por ejemplo pasar el cursor por encima y que salgan los porcentajes, es necesario <strong>embeber el iframe</strong>. Este sería el resultado final.</p>
+<p>&lt;iframe title=“Dosis entregadas de cada vacuna” aria-label=“chart” id=“datawrapper-chart-zhVuS” src=“https://datawrapper.dwcdn.net/zhVuS/1/” scrolling</p>
+						</div>
+					</section>
+
+				<!-- About Me -->
+					<section id="about" class="three">
+						<div class="container">
+
+							<header>
+								<h2>Sobre mí</h2>
+							</header>
+
+							<p>Soy Inés Romero Caro, tengo 22 años y <strong>me graduadé en Periodismo por la Universitat Jaume I de Castelló</strong>. Soy una persona apasionada de la comunicación digital, la cultura multimedia y las redes sociales. Por ello, estoy estudiando un <strong>Máster en Periodismo Digital y de Datos en la Universidad Nebrija</strong>, en Madrid. Además, estoy haciendo mis prácticas en la <strong>web de noticias de Onda Cero</strong>.</p> 
+							<p>Me gusta plasmar historias a través de nuevas narrativas creativas, pero que emocionen y hagan partícipe a todo aquel que las lea. Mi <strong>objetivo profesional</strong> es adentrarme en el nuevo panorama mediático, conectar con él y sacarle el máximo partido.</p>
+
+						</div>
+					</section>
+
+				<!-- Contact -->
+					<section id="contact" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Contacto</h2>
+							</header>
+
+							<p>Si quieres contactar conmigo, rellena este formulario y mándame un mensaje.</p>
+
+							<form method="post" action="#">
+								<div class="row">
+									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Nombre" /></div>
+									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="col-12">
+										<textarea name="message" placeholder="Mensaje"></textarea>
+									</div>
+									<div class="col-12">
+										<input type="submit" value="Enviar mensaje"/>
+									</div>
+								</div>
+							</form>
+
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
