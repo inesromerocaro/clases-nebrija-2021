@@ -84,15 +84,15 @@
 <p>Una vez hemos llegado hasta aquí, haremos una <strong>exploración del archivo</strong>. Para ello será imprescindible el <strong>comando wc</strong>. Con él podremos saber <strong>cuántas líneas, palabas y caracteres tiene el documento</strong>. También nos dará la información sobre cuántos bytes pesa. Asimismo, otros <strong>comandos como file</strong> nos dirán qué tipo de archivo es; <strong>du</strong>, para saber cuánto pesa de forma legible; <strong>head</strong>, para ver la cabecera o las diez primeras filas.</p>
 <p>Una vez aplicados estos comandos veremos que el archivo tiene 23 líneas, 2023 caracteres, 65 palabras y pesa 2032 bytes.</p>
 <figure>
-<img src="images/cap4.jpg" alt="Cabecera visulalización" /><figcaption aria-hidden="true">Cabecera visulalización</figcaption>
+<img src="images/cap4.jpg" alt="Cabecera visulalización" /><figcaption aria-hidden="true"></figcaption>
 </figure>
 <p>Otra información de interés es saber si la cabecera o las primeras líneas del archivo coinciden. Si ponemos <strong>head -1</strong> nos aparece: Dosis entregadas Pfizer, Dosis entregadas Moderna, etc. Por lo tanto, esta primera línea corresponde a la cabecera del csv. Si ponemos <strong>head-10</strong>, nos aparecerán las primeras 10 líneas. También vemos que coinciden. Además, <strong>cada valor está separado mediante el punto y coma (;)</strong>. Cabe añadir que en nuestro archivo, sí se ven los caracteres que contienen tildes.</p>
 <figure>
-<img src="images/cap5.jpg" alt="Cabecera visulalización" /><figcaption aria-hidden="true">Cabecera visulalización</figcaption>
+<img src="images/cap5.jpg" alt="Cabecera visulalización" /><figcaption aria-hidden="true"></figcaption>
 </figure>
 <p>Una vez hemos explorado nuestro archivo y conocemos cuáles son sus principales características, tenemos que “modificarlo” para arreglarlo y que nos sea más fácil trabajar con él para hacer la visualización. Para nuestro gráfico, tan solo nos interesan las cuatro primeras columnas y las filas 2, 10 y 15, puesto que simplemente se quiere hacer una comparativa entre los diversos tipos de vacunas en Andalucía, Cataluña y Madrid. Para ello, empleamos el <strong>comando cut</strong>.</p>
 <figure>
-<img src="images/cap6.jpg" alt="Cabecera visulalización" /><figcaption aria-hidden="true">Cabecera visulalización</figcaption>
+<img src="images/cap6.jpg" alt="Cabecera visulalización" /><figcaption aria-hidden="true"></figcaption>
 </figure>
 <p>Una vez tenemos los datos que queremos, procederemos a hacer la visualización mediante <em>Datawrapper</em>. En este caso, he escogido una <strong>gráfica de barras agrupadas</strong>. De esta forma, se podrá comparar las dosis recibidas de las vacunas en cada comunidad. En cuanto a los colores, se ha seleccionado una <strong>gama azules</strong>, aunque se diferencian unos de otro claramente.</p>
 <p>Por último, una vez está el gráfico elaborado, hay que <strong>llevarlo a nuestro html</strong>. Para que respete todas las propiedades, como por ejemplo pasar el cursor por encima y que salgan los porcentajes, es necesario <strong>embeber el iframe</strong>. Este sería el resultado final.</p><iframe title="Dosis entregadas de cada vacuna" aria-label="chart" id="datawrapper-chart-zhVuS" src="https://datawrapper.dwcdn.net/zhVuS/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="437"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
