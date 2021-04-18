@@ -20,9 +20,10 @@ Si ponemos **head-10**, nos aparecerán las primeras 10 líneas. También vemos 
 ![Cabecera visulalización](/docs/images/cap5.jpg)
 
 Una vez hemos explorado nuestro archivo y conocemos cuáles son sus principales características, tenemos que "modificarlo" para arreglarlo y que nos sea más fácil trabajar con él para hacer la visualización.
-Para nuestro gráfico, tan solo nos interesan las cuatro primeras columnas y las filas 2, 10 y 15, puesto que simplemente se quiere hacer una comparativa entre los diversos tipos de vacunas en Andalucía, Cataluña y Madrid. Para ello, empleamos el **comando cut**.
 
-![Cabecera visulalización](/docs/images/cap6.jpg)
+Para nuestro gráfico, tan solo nos interesan las cuatro primeras columnas y las filas 2, 10 y 15, puesto que simplemente se quiere hacer una comparativa entre los diversos tipos de vacunas en Andalucía, Cataluña y Madrid. Para ello, empleamos el **comando cut**. Sin embargo, hasta que no utilicemos el editor **nano** no se hará el cambio. Así pues, editamos el archivo y ponermos los datos que más nos interesen.
+
+![Cabecera visulalización](/docs/images/nano.jpg)
 
 Una vez tenemos los datos que queremos, procederemos a hacer la visualización mediante *Datawrapper*. En este caso, he escogido una **gráfica de barras agrupadas**. De esta forma, se podrá comparar las dosis recibidas de las vacunas en cada comunidad. En cuanto a los colores, se ha seleccionado una **gama azules**, aunque se diferencian unos de otro claramente.
 
