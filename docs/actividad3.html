@@ -78,19 +78,18 @@
 							</header>
 <h2 id="datos-y-visualizaciones">Datos y visualizaciones</h2>
 <p>Para comenzar, se han descargado los datos a través de la página web del <b>Ministerio de Sanidad</b>. Después, mediante <i>Cygwin</i> se han analizado. En primer lugar, utilizamos el <strong>comando ls</strong>, que nos sirve para listar el contenido del directorio. Es decir, nos aparecerá en la consola el directorio de usuario. En este caso, el csv con los datos sobre la vacunación en España están en ‘Descargas’, y recibe el nombre de <strong>‘vacunas.csv’</strong>. Tenemos que llegar hasta allí.</p>
-<p><img src="images/cap1.jpg" alt="Captura de pantalla" /> <p align="center"><i>Captura desde Cygwin. Inés Romero.</i></p> 
-<img src="images/cap2.jpg" alt="Captura de pantalla" /> <p align="center"><i>Captura desde Cygwin. Inés Romero.</i></p> 
-
-<img src="images/cap3.jpg" alt="Captura de pantalla" /></p> <p align="center"><i>Captura desde Cygwin. Inés Romero.</i></p>  
+<p><img src="images/cap1.jpg" alt="Captura de pantalla"/><p align="center"><i>Captura desde Cygwin. Inés Romero.</i></p> 
+<img src="images/cap2.jpg" alt="Captura de pantalla"/><p align="center"><i>Captura desde Cygwin. Inés Romero.</i></p> 
+<img src="images/cap3.jpg" alt="Captura de pantalla"/></p> <p align="center"><i>Captura desde Cygwin. Inés Romero.</i></p>  
 							
 <p>Una vez hemos llegado hasta aquí, se ha hecho una <strong>exploración del archivo</strong>. Para ello ha sido imprescindible el <strong>comando wc</strong>. Con él se ha podido saber <strong>cuántas líneas, palabas y caracteres tiene el documento</strong>. También nos ha dado la información sobre cuántos bytes pesa el documento con los datos. Asimismo, otros <strong>comandos como file</strong> han revelado qué tipo de archivo es; <strong>du</strong>, para saber cuánto pesa de forma legible; <strong>head</strong>, para ver la cabecera o las diez primeras filas.</p>
 <p>Una vez aplicados estos comandos se ha visto que el archivo tiene 23 líneas, 2023 caracteres, 65 palabras y pesa 2032 bytes.</p>
 <figure>
-<img src="images/cap4.jpg" alt="Captura de pantalla" /><figcaption aria-hidden="true"></figcaption><p align="center"><i>Captura desde Cygwin con diversas características del documento analizadas. Inés Romero.</i></p> 
+<img src="images/cap4.jpg" alt="Captura de pantalla"/><figcaption aria-hidden="true"></figcaption><p align="center"><i>Captura desde Cygwin en la que se han aplicado los comandos para que aparezcan diversas características del documento y analizarlas. Inés Romero.</i></p> 
 </figure>
 <p>Otra información de interés es saber si la cabecera o las primeras líneas del archivo coinciden. Poniendo <strong>head -1</strong> nos aparece (por ejemplo): Dosis entregadas Pfizer, Dosis entregadas Moderna, etc. Por lo tanto, esta primera línea corresponde a la cabecera del csv. Poniendo <strong>head-10</strong>, nos aparecen las primeras 10 líneas. También vemos que coinciden. Además, <strong>cada valor está separado mediante el punto y coma (;)</strong>. Cabe añadir que en nuestro archivo, sí se ven los caracteres que contienen tildes.</p>
 <figure>
-<img src="images/cap5.jpg" alt="Captura de pantalla" /><figcaption aria-hidden="true"></figcaption><p align="center"><i>Captura desde Cygwin tras analizar las primera filas del documento. Inés Romero.</i></p> 
+<img src="images/cap5.jpg" alt="Captura de pantalla" /><figcaption aria-hidden="true"></figcaption><p align="center"><i>Captura desde Cygwin tras analizar las primeras filas del documento. Inés Romero.</i></p> 
 </figure>
 <p>Una vez hemos explorado nuestro archivo y conocemos cuáles son sus principales características, tenemos que “modificarlo” para arreglarlo y que nos sea más fácil trabajar con él para hacer las visualizaciones. Para nuestro primer gráfico, tan solo nos interesan las cuatro primeras columnas y las filas 2, 10 y 15, puesto que simplemente se quiere hacer una comparativa entre los diversos tipos de vacunas en Andalucía, Cataluña y Madrid. Para ello, empleamos el <strong>comando cut</strong>.</p>
 <figure>
